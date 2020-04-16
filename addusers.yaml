@@ -1,6 +1,6 @@
 ---
 - name: Playbook for tasks
-  hosts: all
+  hosts: bastion
   become: yes
   become_method: sudo
   tasks: 
